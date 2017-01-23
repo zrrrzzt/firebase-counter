@@ -1,6 +1,8 @@
 [![Build Status](https://travis-ci.org/zrrrzzt/firebase-counter.svg?branch=master)](https://travis-ci.org/zrrrzzt/firebase-counter)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 # firebase-counter
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/zrrrzzt/firebase-counter.svg)](https://greenkeeper.io/)
 Counter with [firebase](https://firebase.google.com) backend
 
 ## Installation
