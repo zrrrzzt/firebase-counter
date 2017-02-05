@@ -35,7 +35,7 @@
     "emails": false
   },
   "devDependencies": {
-    "coveralls": "2.11.15",
+    "coveralls": "2.11.16",
     "standard": "8.6.0",
     "tap": "9.0.3",
     "nsp": "2.6.2"
