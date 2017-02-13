@@ -1,7 +1,7 @@
 {
   "name": "firebase-counter",
   "description": "Counter with firebase backend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": {
     "name": "Geir Gåsodden",
@@ -14,14 +14,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/zrrrzzt/firebase-counter.git"
+    "url": "https://github.com/zrrrzzt/firebase-counter.git"
   },
   "bugs": {
-    "url": "http://github.com/zrrrzzt/firebase-counter/issues"
+    "url": "https://github.com/zrrrzzt/firebase-counter/issues"
   },
   "homepage": "https://github.com/zrrrzzt/firebase-counter",
   "engines": {
-    "node": ">=6.9.4"
+    "node": ">=6.9.5"
   },
   "main": "index.js",
   "scripts": {
@@ -30,9 +30,6 @@
     "coveralls": "tap --cov --coverage-report=lcov test/**/*.js && cat coverage/lcov.info | coveralls",
     "setup": "npm install && node setup.js",
     "standard-fix": "standard --fix"
-  },
-  "greenkeeper": {
-    "emails": false
   },
   "devDependencies": {
     "coveralls": "2.11.16",
