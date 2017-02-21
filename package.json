@@ -38,6 +38,6 @@
     "nsp": "2.6.2"
   },
   "dependencies": {
-    "firebase": "3.6.9"
+    "firebase": "3.6.10"
   }
 }
