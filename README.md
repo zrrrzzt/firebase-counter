@@ -1,15 +1,18 @@
 [![Build Status](https://travis-ci.org/zrrrzzt/firebase-counter.svg?branch=master)](https://travis-ci.org/zrrrzzt/firebase-counter)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-[![Greenkeeper badge](https://badges.greenkeeper.io/zrrrzzt/firebase-counter.svg)](https://greenkeeper.io/)
+
 # firebase-counter
+
 Counter with [firebase](https://firebase.google.com) backend
 
 ## Installation
+
 ```bash
-$ npm i firebase-counter --save
+$ npm i firebase-counter
 ```
 
 ## Usage
+
 Add, subtract og lookup values for a specific key in firebase.
 - Uses ```value``` as key if no key supplied.
 - Defaults to 1 if no value is presented.
@@ -36,6 +39,7 @@ counter.lookup({'key': 'fishy'}).then(data => console.log(data))
 ```
 
 ## License
+
 [MIT](LICENSE)
 
-![alt text](https://robots.kebabstudios.party/firebase-counter.png "Robohash image of firebase-counter")
+![Robohash image of firebase-counter](https://robots.kebabstudios.party/firebase-counter.png "Robohash image of firebase-counter")
