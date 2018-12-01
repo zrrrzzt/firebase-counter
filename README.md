@@ -41,5 +41,3 @@ counter.lookup({'key': 'fishy'}).then(data => console.log(data))
 ## License
 
 [MIT](LICENSE)
-
-![Robohash image of firebase-counter](https://robots.kebabstudios.party/firebase-counter.png "Robohash image of firebase-counter")
