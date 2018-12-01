@@ -30,7 +30,7 @@ module.exports = (options) => {
           }
           reject(error)
         } else {
-          const result = {key: selectedKey, value: snapshot.val()}
+          const result = { key: selectedKey, value: snapshot.val() }
           if (callback) {
             return callback(null, result)
           }
@@ -54,7 +54,7 @@ module.exports = (options) => {
           }
           reject(error)
         } else {
-          const result = {key: selectedKey, value: snapshot.val()}
+          const result = { key: selectedKey, value: snapshot.val() }
           if (callback) {
             return callback(null, result)
           }
@@ -69,7 +69,7 @@ module.exports = (options) => {
       const selectedKey = args.key || 'value'
       database.ref(selectedKey).once('value').then((snapshot) => {
         const value = snapshot.val()
-        const result = {key: selectedKey, value: value}
+        const result = { key: selectedKey, value: value }
         if (callback) {
           return result
         }
