@@ -38,6 +38,6 @@
     "tap": "15.0.5"
   },
   "dependencies": {
-    "firebase": "8.4.1"
+    "firebase": "8.4.2"
   }
 }
